@@ -8,6 +8,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "1.10.6.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.10.6.0.zip",
+        "checksum": "2ad91bffd8ed96842d5df518b95aab8a",
+        "timestamp": "2026-11-15T15:05:20Z"
+      },
+      {
         "version": "1.10.5.0",
         "changelog": "Siehe Repository.",
         "targetAbi": "12.4.0.0",
@@ -489,6 +497,14 @@
     "owner": "derpfiff (Fork von builtbyproxy)",
     "category": "General",
     "versions": [
+      {
+        "version": "2.15.0.126",
+        "changelog": "Siehe CHANGES-JELLYFIN-12.4.md.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyscribe-fork/main/dist/jellyscribe-fork_2.15.0.126.zip",
+        "checksum": "b224ee5ebafbeac38c97bd9121bd9e4a",
+        "timestamp": "2026-11-15T15:06:07Z"
+      },
       {
         "version": "2.15.0.125",
         "changelog": "Siehe CHANGES-JELLYFIN-12.4.md.",
