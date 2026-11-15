@@ -1,0 +1,584 @@
+[
+  {
+    "guid": "6f2c1c0e-4c0b-4d57-9a55-3a1f0c7f9b21",
+    "name": "Cinema Glass",
+    "description": "Kino-Oberfläche im Glas-Stil für die Jellyfin-Weboberfläche: Hero-Banner, Folgenregal, Player-Feinschliff, Downloads, Seerr-Anfragen und Bewertungen. Jede Funktion ist einzeln schaltbar.",
+    "overview": "Oberfläche im Kino-Glas-Stil mit schaltbaren Zusatzfunktionen",
+    "owner": "derpfiff",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.9.9.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.9.0.zip",
+        "checksum": "33f9e05e44db3e9b276e8347b490748d",
+        "timestamp": "2026-11-15T13:21:51Z"
+      },
+      {
+        "version": "1.9.8.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.8.0.zip",
+        "checksum": "4a7e1ffd8ea6cb7e1fbc3cb7b536ebc8",
+        "timestamp": "2026-11-15T13:16:06Z"
+      },
+      {
+        "version": "1.9.7.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.7.0.zip",
+        "checksum": "c2a85875bdc11ca72d0a7231c9b6091a",
+        "timestamp": "2026-11-15T13:10:31Z"
+      },
+      {
+        "version": "1.9.6.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.6.0.zip",
+        "checksum": "1a6a9ba09640675e1c4fd2977d03383b",
+        "timestamp": "2026-11-15T13:07:52Z"
+      },
+      {
+        "version": "1.9.5.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.5.0.zip",
+        "checksum": "1dc81c820e1b99d0c2d941b99b54238e",
+        "timestamp": "2026-11-15T13:01:46Z"
+      },
+      {
+        "version": "1.9.4.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.4.0.zip",
+        "checksum": "9613324e2b1aa039f299676c3749574e",
+        "timestamp": "2026-11-15T12:21:06Z"
+      },
+      {
+        "version": "1.9.3.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.3.0.zip",
+        "checksum": "16463d48d7ad7b3345680ff5f0cd8f5c",
+        "timestamp": "2026-11-15T12:16:28Z"
+      },
+      {
+        "version": "1.9.2.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.2.0.zip",
+        "checksum": "66ff6fa80c5aaf598805f6b06eb351d4",
+        "timestamp": "2026-11-15T11:56:16Z"
+      },
+      {
+        "version": "1.9.1.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.1.0.zip",
+        "checksum": "89098bc4ed081ea9011951bbf0b57d25",
+        "timestamp": "2026-11-15T11:49:47Z"
+      },
+      {
+        "version": "1.9.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.9.0.0.zip",
+        "checksum": "c8b652756518dad3c8050875069708df",
+        "timestamp": "2026-11-15T11:37:16Z"
+      },
+      {
+        "version": "1.8.9.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.9.0.zip",
+        "checksum": "9ab81701b15172b0045a52576c72e21c",
+        "timestamp": "2026-11-15T11:21:02Z"
+      },
+      {
+        "version": "1.8.8.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.8.0.zip",
+        "checksum": "34bb895c7094b425d56f6f434b97ad22",
+        "timestamp": "2026-11-15T11:05:17Z"
+      },
+      {
+        "version": "1.8.7.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.7.0.zip",
+        "checksum": "74cf81fb5cf30a16376b58982e5f3e76",
+        "timestamp": "2026-11-15T09:13:50Z"
+      },
+      {
+        "version": "1.8.6.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.6.0.zip",
+        "checksum": "ad9f84c5ca334d67667b256ec7a85b20",
+        "timestamp": "2026-11-15T01:35:36Z"
+      },
+      {
+        "version": "1.8.5.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.5.0.zip",
+        "checksum": "a4f3f8e0abab6aae6917f707a966e0be",
+        "timestamp": "2026-11-15T01:18:58Z"
+      },
+      {
+        "version": "1.8.4.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.4.0.zip",
+        "checksum": "4747da67e6067cdc3f0ac4a61bb7ee3b",
+        "timestamp": "2026-11-15T01:03:39Z"
+      },
+      {
+        "version": "1.8.3.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.3.0.zip",
+        "checksum": "95f15dc29f0d9905e74d49c43fcc1e0f",
+        "timestamp": "2026-11-15T00:55:27Z"
+      },
+      {
+        "version": "1.8.2.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.2.0.zip",
+        "checksum": "59131d83645b088b877ad42fda2810be",
+        "timestamp": "2026-11-15T00:36:54Z"
+      },
+      {
+        "version": "1.8.1.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.1.0.zip",
+        "checksum": "61b42dc8a2df8e5d5ee31ae93ad01107",
+        "timestamp": "2026-11-15T00:32:20Z"
+      },
+      {
+        "version": "1.8.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.8.0.0.zip",
+        "checksum": "eaa5161227ae4c5e3dd21012a1c0f677",
+        "timestamp": "2026-11-15T00:00:45Z"
+      },
+      {
+        "version": "1.7.2.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.7.2.0.zip",
+        "checksum": "ca081bfe2772e49ee95f448843645613",
+        "timestamp": "2026-11-14T16:32:07Z"
+      },
+      {
+        "version": "1.7.1.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.7.1.0.zip",
+        "checksum": "3c396a4c7b72d6355d52118c25833a63",
+        "timestamp": "2026-11-14T16:30:55Z"
+      },
+      {
+        "version": "1.7.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.7.0.0.zip",
+        "checksum": "8cbaa204b9c5d1cab7152aa273bde575",
+        "timestamp": "2026-11-14T16:23:29Z"
+      },
+      {
+        "version": "1.6.5.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.6.5.0.zip",
+        "checksum": "ef9ebc47c3a98ac90fe506d1e88b4a7b",
+        "timestamp": "2026-11-14T16:16:39Z"
+      },
+      {
+        "version": "1.6.4.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.6.4.0.zip",
+        "checksum": "655cc8e22aac16b074c638b343ce4a52",
+        "timestamp": "2026-11-14T15:48:42Z"
+      },
+      {
+        "version": "1.6.3.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.6.3.0.zip",
+        "checksum": "41406914280afd58391fc12a96490f70",
+        "timestamp": "2026-11-14T15:31:52Z"
+      },
+      {
+        "version": "1.6.2.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.6.2.0.zip",
+        "checksum": "bf658eb73e7a652cc8dcbc8e649aaf3c",
+        "timestamp": "2026-11-14T15:27:01Z"
+      },
+      {
+        "version": "1.6.1.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.6.1.0.zip",
+        "checksum": "4152c178d427a01701e265e767828998",
+        "timestamp": "2026-11-14T14:38:45Z"
+      },
+      {
+        "version": "1.6.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.6.0.0.zip",
+        "checksum": "525612be105740869b9b86b0dc5a1fa1",
+        "timestamp": "2026-11-14T14:34:05Z"
+      },
+      {
+        "version": "1.5.2.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.5.2.0.zip",
+        "checksum": "765f856099292fe3ae046dbba620f438",
+        "timestamp": "2026-11-14T12:29:04Z"
+      },
+      {
+        "version": "1.5.1.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.5.1.0.zip",
+        "checksum": "c92561b556ac80b385d246eaa4b671a1",
+        "timestamp": "2026-11-14T12:17:20Z"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.5.0.0.zip",
+        "checksum": "3b41c32763fe8e44d72d06a18f05149f",
+        "timestamp": "2026-11-14T11:58:44Z"
+      },
+      {
+        "version": "1.4.9.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.9.0.zip",
+        "checksum": "d94cab89ef7fc1dee7af637b8e73722a",
+        "timestamp": "2026-11-14T11:22:31Z"
+      },
+      {
+        "version": "1.4.8.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.8.0.zip",
+        "checksum": "e80d700b68b3eb0efcd0636c95754f30",
+        "timestamp": "2026-11-14T11:05:56Z"
+      },
+      {
+        "version": "1.4.7.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.7.0.zip",
+        "checksum": "ecde3bddeb981a867369475f33aedd15",
+        "timestamp": "2026-11-14T09:08:25Z"
+      },
+      {
+        "version": "1.4.6.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.6.0.zip",
+        "checksum": "a66cbb6153fd0e6b8dac0b3099ba8cd4",
+        "timestamp": "2026-11-14T08:20:39Z"
+      },
+      {
+        "version": "1.4.5.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.5.0.zip",
+        "checksum": "8ca2d35e2c254bb20dcecfee4db9d1d5",
+        "timestamp": "2026-11-14T08:06:25Z"
+      },
+      {
+        "version": "1.4.4.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.4.0.zip",
+        "checksum": "c9a9d5ef12da29146ac3eda776dddee4",
+        "timestamp": "2026-11-14T07:36:42Z"
+      },
+      {
+        "version": "1.4.3.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.3.0.zip",
+        "checksum": "8f84bde40fe717b106aa3884bee1e068",
+        "timestamp": "2026-11-13T23:26:45Z"
+      },
+      {
+        "version": "1.4.2.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.2.0.zip",
+        "checksum": "59afe5cbe979fabd61ee813a941e4d81",
+        "timestamp": "2026-11-13T23:07:06Z"
+      },
+      {
+        "version": "1.4.1.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.1.0.zip",
+        "checksum": "7113a43b160cdfae9219f64dbeac73fa",
+        "timestamp": "2026-11-13T20:54:50Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.4.0.0.zip",
+        "checksum": "61642aa299bce178eef7566989f3a201",
+        "timestamp": "2026-11-13T20:44:51Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.3.0.0.zip",
+        "checksum": "033e440fcde3de7fb0c6c7cec29b9dc2",
+        "timestamp": "2026-11-13T18:14:08Z"
+      },
+      {
+        "version": "1.2.9.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.9.0.zip",
+        "checksum": "694cc0c3629f00e1cfff07d3214e943f",
+        "timestamp": "2026-11-13T17:34:59Z"
+      },
+      {
+        "version": "1.2.8.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.8.0.zip",
+        "checksum": "e194a75ac4b266ab95699fcdb648a2fb",
+        "timestamp": "2026-11-13T13:37:56Z"
+      },
+      {
+        "version": "1.2.7.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.7.0.zip",
+        "checksum": "57a0f3d35f5e6004260a69e57306e806",
+        "timestamp": "2026-11-13T11:52:52Z"
+      },
+      {
+        "version": "1.2.6.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.6.0.zip",
+        "checksum": "754e706b9b716672f8523fb54849096b",
+        "timestamp": "2026-11-13T11:42:13Z"
+      },
+      {
+        "version": "1.2.5.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.5.0.zip",
+        "checksum": "28bdd636de87a0fc849cfd03bedc88ce",
+        "timestamp": "2026-11-13T10:31:10Z"
+      },
+      {
+        "version": "1.2.4.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.4.0.zip",
+        "checksum": "ada2a35b67f82e2e4ae91a56a21ef8aa",
+        "timestamp": "2026-11-13T10:27:14Z"
+      },
+      {
+        "version": "1.2.3.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.3.0.zip",
+        "checksum": "220c9a67f1c31f59ef1dee27d782144f",
+        "timestamp": "2026-11-13T09:42:46Z"
+      },
+      {
+        "version": "1.2.2.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.2.0.zip",
+        "checksum": "e9d1ddd0141d0c1db4aa7fbc6536c96b",
+        "timestamp": "2026-11-12T23:53:53Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.1.0.zip",
+        "checksum": "d42443824bd1867df01a3d362ea2a390",
+        "timestamp": "2026-11-12T23:15:33Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.2.0.0.zip",
+        "checksum": "3349158d30b10d999da14cff78f814d2",
+        "timestamp": "2026-11-12T23:13:19Z"
+      }
+    ]
+  },
+  {
+    "guid": "c7a3e1b9-5d42-4f8a-9c06-2b7d8e4f1a35",
+    "name": "Jellyscribe",
+    "overview": "Letterboxd-Tagebuch auf Wunsch – Fork für Jellyfin 12.4 / Letterboxd diary logging on request (Jellyfin 12.4 fork)",
+    "description": "Fork von builtbyproxy/jellyfin-plugin-letterboxd (MIT) für Jellyfin 12.4: trägt nichts automatisch ein, sondern nur Einträge, die im Bewerten-Dialog von Cinema Glass bestätigt werden (Datum, halbe Sterne, Herz, Kommentar, Spoiler, schon gesehen). Ist Letterboxd nicht erreichbar, wird nachgereicht.",
+    "owner": "derpfiff (Fork von builtbyproxy)",
+    "category": "General",
+    "versions": [
+      {
+        "version": "2.15.0.124",
+        "changelog": "Siehe CHANGES-JELLYFIN-12.4.md.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyscribe-fork/main/dist/jellyscribe-fork_2.15.0.124.zip",
+        "checksum": "f2e4bbbf9de688ae7db790795755a522",
+        "timestamp": "2026-11-15T13:34:43Z"
+      }
+    ]
+  },
+  {
+    "guid": "b3d0a2f4-71c6-4e7b-9a0e-5c2f8d14e6a9",
+    "name": "Mediathek",
+    "description": "Sendungen der öffentlich-rechtlichen Mediatheken zum Stöbern, Suchen und Abspielen, dazu ihre Live-Programme mit Programmübersicht.",
+    "overview": "Mediatheken und Live-TV der öffentlich-rechtlichen Sender",
+    "owner": "derpfiff",
+    "category": "Channels",
+    "versions": [
+      {
+        "version": "0.3.2.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.3.2.0.zip",
+        "checksum": "27049f1f675ede016b9ec2bba25fcd21",
+        "timestamp": "2026-11-14T15:31:47Z"
+      },
+      {
+        "version": "0.3.1.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.3.1.0.zip",
+        "checksum": "1c8b3d709167ecd0c615335ee609131a",
+        "timestamp": "2026-11-14T12:57:47Z"
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.3.0.0.zip",
+        "checksum": "035a960d357ef4738f07fa8609fb0c49",
+        "timestamp": "2026-11-14T12:47:19Z"
+      },
+      {
+        "version": "0.2.10.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.10.0.zip",
+        "checksum": "d6c85ade46d511bf06749f12472e4cac",
+        "timestamp": "2026-11-14T12:29:00Z"
+      },
+      {
+        "version": "0.2.9.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.9.0.zip",
+        "checksum": "544e72d024f6d92c5e10ffa10159f5ed",
+        "timestamp": "2026-11-14T11:05:54Z"
+      },
+      {
+        "version": "0.2.8.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.8.0.zip",
+        "checksum": "f11a876de97a5fb5cc65ec2ad5565157",
+        "timestamp": "2026-11-14T08:57:08Z"
+      },
+      {
+        "version": "0.2.7.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.7.0.zip",
+        "checksum": "81d2c96bef9ffb4256bcf0f3c25028ab",
+        "timestamp": "2026-11-14T08:24:27Z"
+      },
+      {
+        "version": "0.2.6.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.6.0.zip",
+        "checksum": "41ad8ba8b6a706d5b037d5de9782cb7a",
+        "timestamp": "2026-11-14T08:20:41Z"
+      },
+      {
+        "version": "0.2.5.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.5.0.zip",
+        "checksum": "84a5303ff0837fecb1c46369dbcf8647",
+        "timestamp": "2026-11-14T08:06:27Z"
+      },
+      {
+        "version": "0.2.4.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.4.0.zip",
+        "checksum": "8b0596f580499b0d15f67000f271aafd",
+        "timestamp": "2026-11-14T07:36:45Z"
+      },
+      {
+        "version": "0.2.3.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.3.0.zip",
+        "checksum": "7f140f27d348af8b0b8b4e646c13628b",
+        "timestamp": "2026-11-13T23:26:46Z"
+      },
+      {
+        "version": "0.2.2.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.2.0.zip",
+        "checksum": "8f6a71432d77a8f662e3e942ff8bfbfb",
+        "timestamp": "2026-11-13T23:06:31Z"
+      },
+      {
+        "version": "0.2.1.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.1.0.zip",
+        "checksum": "8e5b8bd07bfdf83a113d7c2a6ad05ef8",
+        "timestamp": "2026-11-13T21:01:52Z"
+      },
+      {
+        "version": "0.2.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.2.0.0.zip",
+        "checksum": "a63678fac4735af7f211690b583d7ce4",
+        "timestamp": "2026-11-13T20:44:53Z"
+      },
+      {
+        "version": "0.1.0.0",
+        "changelog": "Siehe Repository.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/jellyfin-mediathek/main/plugin/dist/mediathek_0.1.0.0.zip",
+        "checksum": "cdc4f845220deab5496772d410a42db8",
+        "timestamp": "2026-11-13T18:40:04Z"
+      }
+    ]
+  }
+]
