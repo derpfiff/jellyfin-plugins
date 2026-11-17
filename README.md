@@ -28,3 +28,18 @@ GitHub setzt die Datei `manifest.json` stündlich aus den Katalogen der einzelne
 von Hand. Die Einzel-Kataloge der Repositories funktionieren weiter.
 
 Dazu passt die Mac-App [JellyDesk](https://github.com/derpfiff/JellyDesk) mit Downloads und Offline-Wiedergabe.
+
+## Staging: erst testen, dann freigeben
+
+Neue Versionen landen zuerst nur im Test-Katalog `staging.json`. Er enthält alles aus `manifest.json` und zusätzlich die
+Versionen, die gerade geprüft werden:
+
+```
+https://raw.githubusercontent.com/derpfiff/jellyfin-plugins/main/staging.json
+```
+
+Wer testen will, trägt diese Adresse statt der normalen in Jellyfin ein (Dashboard → Plugins → Kataloge). Alle anderen
+bleiben bei `manifest.json` und bekommen eine Version erst, wenn sie freigegeben ist. Freigeben heißt: im
+Plugin-Repository mit `scripts/promote.py <Repository> <Version>` aus `manifest-staging.json` nach `manifest.json`
+verschieben, pushen und diesen Katalog neu bauen lassen.
+
