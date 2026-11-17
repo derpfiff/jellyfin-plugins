@@ -5,15 +5,19 @@ manifest.json  – Produktion: nur freigegebene Versionen (manifest.json der Rep
 staging.json   – Test: alles aus der Produktion plus die Versionen, die noch geprüft werden
                  (manifest-staging.json der Repositories). Nur Server, die diesen Katalog eingetragen haben, sehen sie.
 """
-import json, sys, urllib.error, urllib.request
+import json, os, sys, urllib.error, urllib.request
 
 REPOS = ["derpfiff/cinema-glass", "derpfiff/jellyfin-mediathek", "derpfiff/jellyscribe-fork"]
 
 
 def load(repo, name, required=True):
-    url = "https://raw.githubusercontent.com/%s/main/%s" % (repo, name)
+    # über die GitHub-API statt raw.githubusercontent.com: die API liefert den aktuellen Stand, raw ist bis zu 5 Minuten alt
+    url = "https://api.github.com/repos/%s/contents/%s?ref=main" % (repo, name)
+    headers = {"Accept": "application/vnd.github.raw", "User-Agent": "catalog-merge"}
+    if os.environ.get("GITHUB_TOKEN"):
+        headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers={"Cache-Control": "no-cache"}), timeout=30) as r:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=30) as r:
             data = json.load(r)
     except urllib.error.HTTPError as e:
         if e.code == 404 and not required:
