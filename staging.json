@@ -8,6 +8,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "1.10.18.0",
+        "changelog": "- Besetzung wie bei Amazon X-Ray: Beim Pausieren steht links eine Liste mit Fotos, Namen und Rollen. Ein Tipp aufs Bild blendet sie aus, ein Tipp auf eine Person zeigt daneben ihr Porträt.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/derpfiff/cinema-glass/main/plugin/dist/cinema-glass_1.10.18.0.zip",
+        "checksum": "4bdeb84570ca366290c829c8f038a1a9",
+        "timestamp": "2026-11-17T21:54:32Z"
+      },
+      {
         "version": "1.10.17.0",
         "changelog": "- Updates direkt in der App: Gibt es neue Versionen deiner Plugins, fragt Jellyfin beim Öffnen: „Jetzt aktualisieren“ installiert alles und startet neu, „Später“ fragt beim nächsten Öffnen wieder.\n- Besetzung kommt wieder: Eingeklappt bleibt die Besetzung nur bis zum nächsten Pausieren.",
         "targetAbi": "12.4.0.0",
